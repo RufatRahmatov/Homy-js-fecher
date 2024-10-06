@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": "2e72",
+      "name": "Martin",
+      "profession": "Broker",
+      "image": "https://html.creativegigstf.com/homy/homy/images/agent/img_04.jpg",
+      "isOnline": true
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create New User</title>
+    <script src="create.js" defer></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100 p-6">
+    <h1 class="text-3xl mb-4">Add New User</h1>
+
+    <form id="userForm" class="space-y-4">
+      <div>
+        <label for="name" class="block">Name</label>
+        <input
+          type="text"
+          id="name"
+          class="w-full p-2 border border-gray-300 rounded"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="profession" class="block">Profession</label>
+        <input
+          type="text"
+          id="profession"
+          class="w-full p-2 border border-gray-300 rounded"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="image" class="block">Image URL</label>
+        <input
+          type="url"
+          id="image"
+          class="w-full p-2 border border-gray-300 rounded"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="status" class="block">Status</label>
+        <select id="status" class="w-full p-2 border border-gray-300 rounded">
+          <option value="online">Online</option>
+          <option value="offline">Offline</option>
+        </select>
+      </div>
+
+      <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded">
+        Create User
+      </button>
+    </form>
+  </body>
+</html>
